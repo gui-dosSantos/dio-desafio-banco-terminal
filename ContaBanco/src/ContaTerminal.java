@@ -28,7 +28,7 @@ public class ContaTerminal {
         //Formatação do saldo para exibição de acordo com a exibição padrão de moedas, com 2 casas decimais
         String saldoFormatado = padraoFormatacaoDecimal.format(saldo);
 
-        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo $" + saldoFormatado + " já está disponível para saque");
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo " + saldoFormatado + " já está disponível para saque");
     }
 
 }
